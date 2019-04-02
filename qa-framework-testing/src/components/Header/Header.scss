@@ -1,0 +1,73 @@
+// sass-lint:disable property-sort-order
+.app-header {
+  background-color: white;
+  border-bottom: 1px solid #bfbfbf;
+
+  nav {
+    align-items: center;
+    display: flex;
+    padding: 0 64px;
+
+    .logo {
+      align-items: center;
+      border-right: 1px solid #bfbfbf;
+      display: flex;
+      height: 60px;
+      margin: 18px 0;
+      padding-right: 40px;
+
+      img {
+        height: 48px;
+        margin-right: 40px;
+        width: 112px;
+      }
+
+      h3 {
+        color: #6c6c6c;
+      }
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      list-style: none;
+      list-style-type: none;
+      margin: 0;
+      margin-left: 50px;
+      padding: 0;
+
+      li {
+        margin-right: 80px;
+
+        a {
+          color: black;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19px;
+          padding: 36px 0;
+          text-decoration: none;
+
+          &.active {
+            border-bottom: 4px solid #abbeb7;
+          }
+        }
+      }
+    }
+
+    .user-details {
+      flex: 1;
+      text-align: right;
+    }
+    .notification-badge {
+      padding: 4px 8px;
+      color: white;
+      margin-left: 5px;
+      background: #62b34f;
+    }
+  }
+
+  .disabled-link {
+    pointer-events: none;
+  }
+}
