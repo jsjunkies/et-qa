@@ -7,7 +7,7 @@ class Guideline332 extends Component {
             <div>
                 <h2>Email type input with incorrect Label</h2>
                 <label htmlFor="username">Postal Code</label>
-                <input type="email" id="username" />
+                <input type="email" id="username" placeholder="enter your email" />
             </div>
         );
     }

@@ -7,7 +7,7 @@ class ResolvedGuideline332 extends Component {
             <div>
                 <h2>Email type input with correct Label</h2>
                 <label htmlFor="username">Email</label>
-                <input type="email" id="username" />
+                <input type="email" id="username" placeholder="enter your email" />
             </div>
         );
     }
