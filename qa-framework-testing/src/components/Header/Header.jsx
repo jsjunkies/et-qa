@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.scss';
 import Logo from '../../assets/images/lbg-logo.png';
 
@@ -10,7 +11,9 @@ export default function Header() {
     <header className="app-header">
       <nav>
         <div className="logo" data-selector="lloyds-banking-group-logo">
-          <img alt="MIP Portal" title="MIP Portal" src={Logo} className="lbg-logo" />
+          <Link to='/landing'>
+            <img alt="MIP Portal" title="MIP Portal" src={Logo} className="lbg-logo" />
+          </Link>
           <h3 data-selector="portal-header">QA Testing Portal</h3>
         </div>
         <div className="user-details">

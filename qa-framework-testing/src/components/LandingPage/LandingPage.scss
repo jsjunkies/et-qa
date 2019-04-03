@@ -4,10 +4,20 @@
     width: 100%;
     margin: 20px;
     justify-content: space-around;
+
     .pages-container{
         background: gainsboro;
         width:40%;
         height:100px;
         margin: 20px;
+        padding: 20px;
+
+        a{
+            color: #778899;
+            font-size: 20px;
+            font-weight: bold;
+            display: block;
+            padding: 5px;
+        }
     }
 }

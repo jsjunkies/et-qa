@@ -32,3 +32,13 @@
     transform: rotate(360deg);
   }
 }
+
+.guidelineContainer411{
+  display: flex;
+  div{
+      width:40%;
+      border: 1px solid black;
+      height: 100px;
+      margin: auto;
+  }
+}
