@@ -12,11 +12,15 @@ class LandingPage extends Component {
 
                     <div className="pages-container">
                         <Link to='/guidelines-1.1.1'>Guidelines 1.1.1</Link>
+                        <Link to='/guidelines-1.4.1'>Guidelines 1.4.1</Link>
+                        <Link to='/guidelines-2.4.2'>Guidelines 2.4.2</Link>
                         <Link to='/guidelines-3.3.2'>Guidelines 3.3.2</Link>
                         <Link to='/guidelines-4.1.1'>Guidelines 4.1.1</Link>
                     </div>
                     <div className="pages-container">
                         <Link to='/resolved-guidelines-1.1.1'>Resolved Guidelines 1.1.1</Link>
+                        <Link to='/resolved-guidelines-1.4.1'>Resolved Guidelines 1.4.1</Link>
+                        <Link to='/resolved-guidelines-2.4.2'>Resolved Guidelines 2.4.2</Link>
                         <Link to='/resolved-guidelines-3.3.2'>Resolved Guidelines 3.3.2</Link>
                         <Link to='/resolved-guidelines-4.1.1'>Resolved Guidelines 4.1.1</Link>
                     </div>
